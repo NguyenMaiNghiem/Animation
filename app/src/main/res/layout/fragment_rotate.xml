@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rotate.RotateFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgRotate1"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_bell"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtRotate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Rotate with \n\n android:repeatMode=reverse \n android:repeatCount=infinity \n android:fromDegrees=30 \nandroid:toDegrees=-30 \nandroid:pivotX=50% \nandroid:pivotY=10% \nandroid:duration=700"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgRotate2"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sunflower"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtAlpha1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Rotate with \n\n android:repeatMode=restart \n android:repeatCount=infinity \n android:fromDegrees=0 \nandroid:toDegrees=360 \nandroid:pivotX=50% \nandroid:pivotY=50% \nandroid:duration=1000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TranslateFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chick"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=5 \n android:fromXDelta=0 \nandroid:toXDelta=800 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chick"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=2 \n android:fromXDelta=1100 \nandroid:toXDelta=0 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/amongus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=2 \n android:fromYDelta=0 \nandroid:toYDelta=1000 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/amongus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=2 \n android:fromYDelta=1000 \nandroid:toYDelta=0 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/plane"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=2 \n android:fromXDelta=0 \nandroid:toXDelta=900 \n android:fromYDelta=0 \nandroid:toYDelta=-1000 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgTranslate6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ufo"
+            android:layout_marginTop="20dp">
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtTranslate6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Animation Translate with \n\n android:repeatMode=restart \n android:repeatCount=2 \n android:fromXDelta=0 \nandroid:toXDelta=900 \n android:fromYDelta=0 \nandroid:toYDelta=-1000 \nandroid:duration=2000"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

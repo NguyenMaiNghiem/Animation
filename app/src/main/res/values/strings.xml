@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">N-Team</string>
+    <string name="nav_header_subtitle">Nguyễn Mai Nghiêm</string>
+    <string name="nav_header_subtitle1">Nguyễn Sông Ngân</string>
+    <string name="nav_header_subtitle2">Trần Thị Thanh Ngân</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Alpha</string>
+    <string name="menu_slideshow">Rotate</string>
+    <string name="menu_scale">Scale</string>
+    <string name="menu_translate">Translate</string>
+    <string name="menu_special">Kết hợp</string>
+    <string name="menu_manhinh">Activity</string>
+    <string name="menu_listview">ListView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

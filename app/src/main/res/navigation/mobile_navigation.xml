@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.animation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.animation.ui.alpha.AlphaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_alpha" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.animation.ui.rotate.RotateFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_rotate" />
+    <fragment
+        android:id="@+id/nav_scale"
+        android:name="com.example.animation.ScaleFragment"
+        android:label="@string/menu_scale"
+        tools:layout="@layout/fragment_scale" />
+    <fragment
+        android:id="@+id/nav_translate"
+        android:name="com.example.animation.TranslateFragment"
+        android:label="@string/menu_translate"
+        tools:layout="@layout/fragment_translate" />
+    <fragment
+        android:id="@+id/nav_special"
+        android:name="com.example.animation.SpecialFragment"
+        android:label="@string/menu_special"
+        tools:layout="@layout/fragment_special" />
+    <fragment
+        android:id="@+id/nav_activity"
+        android:name="com.example.animation.ManHinhFragment"
+        android:label="@string/menu_manhinh"
+        tools:layout="@layout/fragment_man_hinh" />
+    <fragment
+        android:id="@+id/nav_listview"
+        android:name="com.example.animation.ListViewFragment"
+        android:label="@string/menu_listview"
+        tools:layout="@layout/fragment_list_view" />
+</navigation>

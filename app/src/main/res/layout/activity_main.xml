@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:src="@drawable/luffy"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="270dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/txtMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chào Mừng Đến Với ANIMATION"
+        android:layout_below="@id/imgMain"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#F6460E"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="130dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/ufos"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+    </pl.droidsonroids.gif.GifImageView>
+
+
+</RelativeLayout>

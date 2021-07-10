@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgSpecial1"
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/luffy"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtSpecial1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Alpha và Scale"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgSpecial2"
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/luffy"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtSpecial2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Alpha và Rotate"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgSpecial3"
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/luffy"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <TextView
+            android:id="@+id/txtSpecial3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Rotate và Scale"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgSpecial4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chick"
+            android:layout_marginTop="30dp"
+            >
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtSpecial4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Translate và Alpha"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgSpecial5"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_ghost"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            >
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtSpecial5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Translate và Scale"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgSpecial6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sunflower"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            >
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:id="@+id/txtSpecial6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Kết hợp giữa Translate, Rotate và Scale"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:gravity="center">
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>
