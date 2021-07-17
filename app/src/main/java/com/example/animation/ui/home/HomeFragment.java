@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.dynamicanimation.animation.DynamicAnimation;
+import androidx.dynamicanimation.animation.SpringAnimation;
+import androidx.dynamicanimation.animation.SpringForce;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -20,6 +24,7 @@ import com.markjmind.propose.Propose;
 public class HomeFragment extends Fragment {
 
     TextView txtAnimation;
+    ImageView img;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -47,8 +52,26 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        img = root.findViewById(R.id.imageview);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SpringAnimationY(getView(),1200f);
+                SpringAnimationY(getView(),0f);
+
+            }
+        });
 
         return root;
     }
 
+    public void SpringAnimationY(View view,float position){
+        SpringAnimation springAnimation = new SpringAnimation(view, DynamicAnimation.TRANSLATION_Y);
+        SpringForce springForce = new SpringForce();
+        springForce.setStiffness(SpringForce.STIFFNESS_VERY_LOW);
+        springForce.setFinalPosition(position);
+        springForce.setDampingRatio(SpringForce.DAMPING_RATIO_HIGH_BOUNCY);
+        springAnimation.setSpring(springForce);
+        springAnimation.start();
+    }
 }
